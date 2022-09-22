@@ -1,0 +1,134 @@
+services:
+  clouddriver:
+    image:
+      imageId: sha256:9bab79dbb0c2a4f70a4decd6e771448d901f6a5e5bf9067e35aff9dd110e106b
+      repository: armory/clouddriver
+      tag: 2022.09.14.16.30.11.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: clouddriver
+        type: github
+      sha: 5bf15b7023ec83c0737640d4816bd5d3beee4d1d
+  echo:
+    image:
+      imageId: sha256:3634f968e382a7db756999a55b42de4e99395f034e335ec594226dbf87f6831d
+      repository: armory/echo
+      tag: 2022.09.14.16.00.12.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: echo
+        type: github
+      sha: d1499917411fae7e863015bf8a3f3778e5e3e3c0
+  fiat:
+    image:
+      imageId: sha256:9b0cd2864ccac7254bc332e58ec3e0ee394390b18523773744d78f0f7895ae50
+      repository: armory/fiat
+      tag: 2022.09.13.09.22.20.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: fiat
+        type: github
+      sha: 55dbe2795e8f9c303c780e36cd36b4d1655ededf
+  front50:
+    image:
+      imageId: sha256:178a9c279a2de8c42a9b24b767447b18adf0c99d1d29e797c171d6d0ff57ea3d
+      repository: armory/front50
+      tag: 2022.09.14.16.00.04.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: front50
+        type: github
+      sha: a2693667709f0635485d299a8c03fbe4ae2b073f
+  gate:
+    image:
+      imageId: sha256:35d7b1793f05f27c696b4e14558dfd62ddc520cee954c851018832d8a9dd82d0
+      repository: armory/gate
+      tag: 2022.09.14.16.00.42.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: gate
+        type: github
+      sha: 1a539888d6280499ca3500e5127ff7316b4c3bab
+  igor:
+    image:
+      imageId: sha256:17a11ee075221c6574a185ba7e54dbcf31da8c193515c5129050996d5da30463
+      repository: armory/igor
+      tag: 2022.09.14.15.59.58.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: igor
+        type: github
+      sha: a6933b6ec4e53b65221715831f3b1a8f74696e3f
+  kayenta:
+    image:
+      imageId: sha256:e1ad52b17183f4f9d28b598fc76e7bfa850619436d4b86787ea2f2f62e54fabe
+      repository: armory/kayenta
+      tag: 2022.09.14.17.16.02.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: kayenta
+        type: github
+      sha: aa4c906185095458148a4e9f5a27fc3e4ae1e158
+  orca:
+    image:
+      imageId: sha256:d28fe01943d2ff9619931846f21668e6141b3d8d305148a26211cf258664a97f
+      repository: armory/orca
+      tag: 2022.09.14.16.14.23.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: orca
+        type: github
+      sha: 73f385b8bf9ad699740af1748d04d0a0716640d7
+  rosco:
+    image:
+      imageId: sha256:3dd9cddf84954e86b8652e8761d5f61bde1c6a736eb7e35fa9320b65e90de192
+      repository: armory/rosco
+      tag: 2022.09.12.06.31.54.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: rosco
+        type: github
+      sha: b7040c7cd489fa6a57ff1067b8e52ed1364a0345
+  deck-armory:
+    baseService: deck
+    image:
+      imageId: sha256:19f689bf1763ebcd8e5ba27074f4748a5d801cdc37102a83c0b31bf55f8843ea
+      repository: armory/deck-armory
+      tag: 2022.08.15.20.12.08.master
+    vcs:
+      repo:
+        orgName: armory-io
+        repoName: deck-armory
+        type: github
+      sha: 89f4744f1298326f951d56b4d5b7eef8186d80b9
+  dinghy:
+    image:
+      imageId: sha256:d8106551bb65f60b1eccb2b3c3b6ea44ca41f9c40e95a3a23132932d57034b0b
+      repository: armory/dinghy
+      tag: 2022.08.25.17.05.13.master
+    vcs:
+      repo:
+        orgName: armory-io
+        repoName: dinghy
+        type: github
+      sha: 168ddc21ba83b6e634f998b339b458c82ba27420
+  terraformer:
+    image:
+      imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
+      repository: armory/terraformer
+      tag: 2022.08.15.08.23.24.master
+    vcs:
+      repo:
+        orgName: armory-io
+        repoName: terraformer
+        type: github
+      sha: 06274aea2918f7e47222856537224de91c9cf542
