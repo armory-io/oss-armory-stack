@@ -1,8 +1,8 @@
 services:
   clouddriver:
     image:
-      imageId: sha256:9bab79dbb0c2a4f70a4decd6e771448d901f6a5e5bf9067e35aff9dd110e106b
-      repository: armory/clouddriver
+      imageId: sha256:8ccc622bfb3ad856d4cff5908a7378c2e5558fd04b9bd726d6dd3c84b52cb86a
+      repository: spinnaker/clouddriver
       tag: 2022.09.14.16.30.11.master
     vcs:
       repo:
@@ -12,8 +12,8 @@ services:
       sha: 5bf15b7023ec83c0737640d4816bd5d3beee4d1d
   echo:
     image:
-      imageId: sha256:3634f968e382a7db756999a55b42de4e99395f034e335ec594226dbf87f6831d
-      repository: armory/echo
+      imageId: sha256:468f89a6dd89933c6c62fde7330a58e6bd29da7e31c3748aa78e7894f4955532
+      repository: spinnaker/echo
       tag: 2022.09.14.16.00.12.master
     vcs:
       repo:
@@ -23,8 +23,8 @@ services:
       sha: d1499917411fae7e863015bf8a3f3778e5e3e3c0
   fiat:
     image:
-      imageId: sha256:9b0cd2864ccac7254bc332e58ec3e0ee394390b18523773744d78f0f7895ae50
-      repository: armory/fiat
+      imageId: sha256:bd4b217bcf3f415a5193dc558fb47f80935bd3b75cf52f940854eca94840185c
+      repository: spinnaker/fiat
       tag: 2022.09.13.09.22.20.master
     vcs:
       repo:
@@ -34,8 +34,8 @@ services:
       sha: 55dbe2795e8f9c303c780e36cd36b4d1655ededf
   front50:
     image:
-      imageId: sha256:178a9c279a2de8c42a9b24b767447b18adf0c99d1d29e797c171d6d0ff57ea3d
-      repository: armory/front50
+      imageId: sha256:987cba80b27b8dd8ac8dbabe7dbdb53ffa843f573aa642147ee31c6a0f9bbf0a
+      repository: spinnaker/front50
       tag: 2022.09.14.16.00.04.master
     vcs:
       repo:
@@ -45,8 +45,8 @@ services:
       sha: a2693667709f0635485d299a8c03fbe4ae2b073f
   gate:
     image:
-      imageId: sha256:35d7b1793f05f27c696b4e14558dfd62ddc520cee954c851018832d8a9dd82d0
-      repository: armory/gate
+      imageId: sha256:e0ca6885c10666d51cf40943723a725eace3aa8101559cacf1d02a166e5eeb47
+      repository: spinnaker/gate
       tag: 2022.09.14.16.00.42.master
     vcs:
       repo:
@@ -56,8 +56,8 @@ services:
       sha: 1a539888d6280499ca3500e5127ff7316b4c3bab
   igor:
     image:
-      imageId: sha256:17a11ee075221c6574a185ba7e54dbcf31da8c193515c5129050996d5da30463
-      repository: armory/igor
+      imageId: sha256:aa16dfd71e01f95f0068580c66c42664e902f45028b7a18af5323b9a7c31b0df
+      repository: spinnaker/igor
       tag: 2022.09.14.15.59.58.master
     vcs:
       repo:
@@ -67,8 +67,8 @@ services:
       sha: a6933b6ec4e53b65221715831f3b1a8f74696e3f
   kayenta:
     image:
-      imageId: sha256:e1ad52b17183f4f9d28b598fc76e7bfa850619436d4b86787ea2f2f62e54fabe
-      repository: armory/kayenta
+      imageId: sha256:f5c0f5d9179bf9300dd7d4c19ff094a743ac9d039d0ce1ddc66321c070f396dd
+      repository: spinnaker/kayenta
       tag: 2022.09.14.17.16.02.master
     vcs:
       repo:
@@ -78,8 +78,8 @@ services:
       sha: aa4c906185095458148a4e9f5a27fc3e4ae1e158
   orca:
     image:
-      imageId: sha256:d28fe01943d2ff9619931846f21668e6141b3d8d305148a26211cf258664a97f
-      repository: armory/orca
+      imageId: sha256:454424174fe0436191a93c556c9c0e8545df0dd0b1a3edad03a99f7f803f1494
+      repository: spinnaker/orca
       tag: 2022.09.14.16.14.23.master
     vcs:
       repo:
@@ -89,8 +89,8 @@ services:
       sha: 73f385b8bf9ad699740af1748d04d0a0716640d7
   rosco:
     image:
-      imageId: sha256:3dd9cddf84954e86b8652e8761d5f61bde1c6a736eb7e35fa9320b65e90de192
-      repository: armory/rosco
+      imageId: sha256:1c40932f36d99dc1ee5e8768758890b3561290d9f0c7b6052d84afc084cad740
+      repository: spinnaker/rosco
       tag: 2022.09.12.06.31.54.master
     vcs:
       repo:
