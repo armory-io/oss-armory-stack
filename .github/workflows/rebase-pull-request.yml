@@ -6,6 +6,7 @@ on:
       - 'release-**.x'
     paths:
       - 'stack.yml'
+      - 'plugins.yml'
 jobs:
   rebase:
     runs-on: ubuntu-latest
