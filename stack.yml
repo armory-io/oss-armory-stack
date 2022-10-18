@@ -46,15 +46,15 @@ services:
       sha: d1499917411fae7e863015bf8a3f3778e5e3e3c0
   fiat:
     image:
-      imageId: sha256:bd4b217bcf3f415a5193dc558fb47f80935bd3b75cf52f940854eca94840185c
+      imageId: sha256:2595400893a7d59073fddd1794a6d8f90ad446196e43a2aaec06d68a30e8f60c
       repository: spinnaker/fiat
-      tag: 2022.09.13.09.22.20.master
+      tag: 2022.10.10.17.47.32.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: fiat
         type: github
-      sha: 55dbe2795e8f9c303c780e36cd36b4d1655ededf
+      sha: 0cd81bd611b8ca40f0d998a24c9d499819186ed4
   front50:
     image:
       imageId: sha256:987cba80b27b8dd8ac8dbabe7dbdb53ffa843f573aa642147ee31c6a0f9bbf0a
