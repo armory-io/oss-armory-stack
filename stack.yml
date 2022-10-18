@@ -10,6 +10,29 @@ services:
         repoName: clouddriver
         type: github
       sha: 5bf15b7023ec83c0737640d4816bd5d3beee4d1d
+  deck-armory:
+    baseService: deck
+    image:
+      imageId: sha256:19f689bf1763ebcd8e5ba27074f4748a5d801cdc37102a83c0b31bf55f8843ea
+      repository: armory/deck-armory
+      tag: 2022.08.15.20.12.08.master
+    vcs:
+      repo:
+        orgName: armory-io
+        repoName: deck-armory
+        type: github
+      sha: 89f4744f1298326f951d56b4d5b7eef8186d80b9
+  dinghy:
+    image:
+      imageId: sha256:d8106551bb65f60b1eccb2b3c3b6ea44ca41f9c40e95a3a23132932d57034b0b
+      repository: armory/dinghy
+      tag: 2022.08.25.17.05.13.master
+    vcs:
+      repo:
+        orgName: armory-io
+        repoName: dinghy
+        type: github
+      sha: 168ddc21ba83b6e634f998b339b458c82ba27420
   echo:
     image:
       imageId: sha256:468f89a6dd89933c6c62fde7330a58e6bd29da7e31c3748aa78e7894f4955532
@@ -78,15 +101,15 @@ services:
       sha: aa4c906185095458148a4e9f5a27fc3e4ae1e158
   orca:
     image:
-      imageId: sha256:454424174fe0436191a93c556c9c0e8545df0dd0b1a3edad03a99f7f803f1494
+      imageId: sha256:626d374af8919b609640a89efeeef84ba7f514d3987758791ac6bc2420f79eea
       repository: spinnaker/orca
-      tag: 2022.09.14.16.14.23.master
+      tag: 2022.10.13.05.46.41.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: orca
         type: github
-      sha: 73f385b8bf9ad699740af1748d04d0a0716640d7
+      sha: 5a9aefd436c9345afcbc09958c3ef457d64fd4bc
   rosco:
     image:
       imageId: sha256:1c40932f36d99dc1ee5e8768758890b3561290d9f0c7b6052d84afc084cad740
@@ -98,29 +121,6 @@ services:
         repoName: rosco
         type: github
       sha: b7040c7cd489fa6a57ff1067b8e52ed1364a0345
-  deck-armory:
-    baseService: deck
-    image:
-      imageId: sha256:19f689bf1763ebcd8e5ba27074f4748a5d801cdc37102a83c0b31bf55f8843ea
-      repository: armory/deck-armory
-      tag: 2022.08.15.20.12.08.master
-    vcs:
-      repo:
-        orgName: armory-io
-        repoName: deck-armory
-        type: github
-      sha: 89f4744f1298326f951d56b4d5b7eef8186d80b9
-  dinghy:
-    image:
-      imageId: sha256:d8106551bb65f60b1eccb2b3c3b6ea44ca41f9c40e95a3a23132932d57034b0b
-      repository: armory/dinghy
-      tag: 2022.08.25.17.05.13.master
-    vcs:
-      repo:
-        orgName: armory-io
-        repoName: dinghy
-        type: github
-      sha: 168ddc21ba83b6e634f998b339b458c82ba27420
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
