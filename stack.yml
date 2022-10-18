@@ -1,4 +1,15 @@
 services:
+  armory-ext:
+    image:
+      imageId: sha256:d34ea6f29026233a69433ca689f21c1975db87652a9cb7308d53837f9ed979b3
+      repository: armory/armory-ext
+      tag: 2022.10.05.16.03.46.master
+    vcs:
+      repo:
+        orgName: armory-plugins
+        repoName: armory-ext
+        type: github
+      sha: 3a0dc6c3f1fec593cd429e5ca9056d521424ff2c
   clouddriver:
     image:
       imageId: sha256:8ccc622bfb3ad856d4cff5908a7378c2e5558fd04b9bd726d6dd3c84b52cb86a
