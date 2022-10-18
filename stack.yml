@@ -35,15 +35,15 @@ services:
       sha: 168ddc21ba83b6e634f998b339b458c82ba27420
   echo:
     image:
-      imageId: sha256:468f89a6dd89933c6c62fde7330a58e6bd29da7e31c3748aa78e7894f4955532
+      imageId: sha256:cc4a6c2c98458231591e275c516a9beda32461613bde222ff9bb67ee69bfe078
       repository: spinnaker/echo
-      tag: 2022.09.14.16.00.12.master
+      tag: 2022.10.10.17.49.34.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: echo
         type: github
-      sha: d1499917411fae7e863015bf8a3f3778e5e3e3c0
+      sha: 2448651a8ec1884c63e4489326fbb492c866301a
   fiat:
     image:
       imageId: sha256:2595400893a7d59073fddd1794a6d8f90ad446196e43a2aaec06d68a30e8f60c
