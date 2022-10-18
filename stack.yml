@@ -57,15 +57,15 @@ services:
       sha: 55dbe2795e8f9c303c780e36cd36b4d1655ededf
   front50:
     image:
-      imageId: sha256:987cba80b27b8dd8ac8dbabe7dbdb53ffa843f573aa642147ee31c6a0f9bbf0a
+      imageId: sha256:c72c1b46517e59255d336f4cc1b27d4d000d5abd9bfbacb6d1262c0e9eb67a79
       repository: spinnaker/front50
-      tag: 2022.09.14.16.00.04.master
+      tag: 2022.10.10.17.49.46.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: front50
         type: github
-      sha: a2693667709f0635485d299a8c03fbe4ae2b073f
+      sha: fd781ab141cd96507bcbf67719ed02a3d6b8c44c
   gate:
     image:
       imageId: sha256:e0ca6885c10666d51cf40943723a725eace3aa8101559cacf1d02a166e5eeb47
