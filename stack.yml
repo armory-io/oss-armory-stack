@@ -68,15 +68,15 @@ services:
       sha: a2693667709f0635485d299a8c03fbe4ae2b073f
   gate:
     image:
-      imageId: sha256:e0ca6885c10666d51cf40943723a725eace3aa8101559cacf1d02a166e5eeb47
+      imageId: sha256:e8d3f3d3ec917d3f71c926348e6c6454fabdc8450d882f05733152a1fb7fa5ba
       repository: spinnaker/gate
-      tag: 2022.09.14.16.00.42.master
+      tag: 2022.10.10.17.48.22.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: gate
         type: github
-      sha: 1a539888d6280499ca3500e5127ff7316b4c3bab
+      sha: c225d565c2146f467ac6fd4698f06dd84d2564bb
   igor:
     image:
       imageId: sha256:aa16dfd71e01f95f0068580c66c42664e902f45028b7a18af5323b9a7c31b0df
