@@ -79,15 +79,15 @@ services:
       sha: c225d565c2146f467ac6fd4698f06dd84d2564bb
   igor:
     image:
-      imageId: sha256:aa16dfd71e01f95f0068580c66c42664e902f45028b7a18af5323b9a7c31b0df
+      imageId: sha256:bc79b1d6d805d158967821b6431ffd947f6d8c80a74675a707d644bc96370ea4
       repository: spinnaker/igor
-      tag: 2022.09.14.15.59.58.master
+      tag: 2022.10.10.17.48.10.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: igor
         type: github
-      sha: a6933b6ec4e53b65221715831f3b1a8f74696e3f
+      sha: 0031d4120eefe27a422e072e1f401ccf31d86365
   kayenta:
     image:
       imageId: sha256:f5c0f5d9179bf9300dd7d4c19ff094a743ac9d039d0ce1ddc66321c070f396dd
