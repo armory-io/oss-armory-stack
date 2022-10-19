@@ -90,15 +90,15 @@ services:
       sha: 0031d4120eefe27a422e072e1f401ccf31d86365
   kayenta:
     image:
-      imageId: sha256:f5c0f5d9179bf9300dd7d4c19ff094a743ac9d039d0ce1ddc66321c070f396dd
+      imageId: sha256:a860a9a00835219e48cede8341d51126b248bacf0f6318cc8e4e319c2f5d97a0
       repository: spinnaker/kayenta
-      tag: 2022.09.14.17.16.02.master
+      tag: 2022.10.11.15.36.53.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: kayenta
         type: github
-      sha: aa4c906185095458148a4e9f5a27fc3e4ae1e158
+      sha: a3c9ae74bcffae778df8d3f80981de1a647e2f39
   orca:
     image:
       imageId: sha256:626d374af8919b609640a89efeeef84ba7f514d3987758791ac6bc2420f79eea
