@@ -101,15 +101,15 @@ services:
       sha: a3c9ae74bcffae778df8d3f80981de1a647e2f39
   orca:
     image:
-      imageId: sha256:626d374af8919b609640a89efeeef84ba7f514d3987758791ac6bc2420f79eea
+      imageId: sha256:d6350464d2668a21b1ae719ed12acea91617ee2c51b6769eebf84b3a54fa6c28
       repository: spinnaker/orca
-      tag: 2022.10.13.05.46.41.master
+      tag: 2022.10.21.16.18.20.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: orca
         type: github
-      sha: 5a9aefd436c9345afcbc09958c3ef457d64fd4bc
+      sha: 0e74af246a5f47b360024a873db3b55d12552ea7
   rosco:
     image:
       imageId: sha256:798ed30126d52252323bf7d4b40baa981534702353897e11007a0f2ec108e744
