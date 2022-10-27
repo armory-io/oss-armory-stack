@@ -1,15 +1,15 @@
 services:
   clouddriver:
     image:
-      imageId: sha256:7d1030db58c5934805f80363623d2a6a957bbba919c9a86f92b6a3cddfc177ca
+      imageId: sha256:f7d0404895322a01b882e9485ad168e1d7c7d29132fc223acef46d5f3f939cee
       repository: spinnaker/clouddriver
-      tag: 2022.10.10.18.27.46.master
+      tag: 2022.10.27.13.47.05.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: clouddriver
         type: github
-      sha: 25bed1fa85a9f75dcdc4faa453fb33baf2d7b8aa
+      sha: 8bec915ea207c12a5334ea8a7ca0cd09194fec74
   deck-armory:
     baseService: deck
     image:
