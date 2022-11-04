@@ -112,15 +112,15 @@ services:
       sha: 5a9aefd436c9345afcbc09958c3ef457d64fd4bc
   rosco:
     image:
-      imageId: sha256:798ed30126d52252323bf7d4b40baa981534702353897e11007a0f2ec108e744
+      imageId: sha256:6a1f864c4d1c806e296a8453ac6060e0a133367e361e167b95303a7d16c77b07
       repository: spinnaker/rosco
-      tag: 2022.10.10.17.50.51.master
+      tag: 2022.11.04.17.11.28.master
     vcs:
       repo:
         orgName: spinnaker
         repoName: rosco
         type: github
-      sha: ef1bab5e689e2542d0400027038af6442ec43f41
+      sha: ccb3f5dee7710bbeca3293899c113ba7f29525cc
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
