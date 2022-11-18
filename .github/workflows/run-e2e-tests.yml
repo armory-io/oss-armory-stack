@@ -23,7 +23,7 @@ jobs:
         run: |
           diffStack=$(git diff origin/$BRANCH_NAME HEAD stack.yml)
           diffPlugins=$(git diff origin/$BRANCH_NAME HEAD plugins.yml)
-          if [ -z "$diffStack" ] || [ -z "$diffPlugins" ]; then
+          if [[ -z "$diffStack" && -z "$diffPlugins" ]]; then
             echo "##[set-output name=changed;]false"
           else
             echo "##[set-output name=changed;]true"
