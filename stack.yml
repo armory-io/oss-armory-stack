@@ -2,7 +2,7 @@ services:
   clouddriver:
     image:
       imageId: sha256:7d1030db58c5934805f80363623d2a6a957bbba919c9a86f92b6a3cddfc177ca
-      repository: spinnaker/clouddriver
+      repository: armory/spinnaker-clouddriver
       tag: 2022.10.10.18.27.46.master
     vcs:
       repo:
@@ -36,8 +36,8 @@ services:
   echo:
     image:
       imageId: sha256:cc4a6c2c98458231591e275c516a9beda32461613bde222ff9bb67ee69bfe078
-      repository: spinnaker/echo
-      tag: 2022.10.10.17.49.34.master
+      repository: armory/spinnaker-echo
+      tag: 2022.10.10-20221010174934.master
     vcs:
       repo:
         orgName: spinnaker
@@ -47,8 +47,8 @@ services:
   fiat:
     image:
       imageId: sha256:2595400893a7d59073fddd1794a6d8f90ad446196e43a2aaec06d68a30e8f60c
-      repository: spinnaker/fiat
-      tag: 2022.10.10.17.47.32.master
+      repository: armory/spinnaker-fiat
+      tag: 2022.10.10-20221010174732.master
     vcs:
       repo:
         orgName: spinnaker
@@ -58,8 +58,8 @@ services:
   front50:
     image:
       imageId: sha256:c72c1b46517e59255d336f4cc1b27d4d000d5abd9bfbacb6d1262c0e9eb67a79
-      repository: spinnaker/front50
-      tag: 2022.10.10.17.49.46.master
+      repository: armory/spinnaker-front50
+      tag: 2022.10.10-20221010174946.master
     vcs:
       repo:
         orgName: spinnaker
@@ -69,8 +69,8 @@ services:
   gate:
     image:
       imageId: sha256:e8d3f3d3ec917d3f71c926348e6c6454fabdc8450d882f05733152a1fb7fa5ba
-      repository: spinnaker/gate
-      tag: 2022.10.10.17.48.22.master
+      repository: armory/spinnaker-gate
+      tag: 2022.10.10-20221010174822.master
     vcs:
       repo:
         orgName: spinnaker
@@ -80,8 +80,8 @@ services:
   igor:
     image:
       imageId: sha256:bc79b1d6d805d158967821b6431ffd947f6d8c80a74675a707d644bc96370ea4
-      repository: spinnaker/igor
-      tag: 2022.10.10.17.48.10.master
+      repository: armory/spinnaker-igor
+      tag: 2022.11.16-20221116202744.master
     vcs:
       repo:
         orgName: spinnaker
@@ -91,8 +91,8 @@ services:
   kayenta:
     image:
       imageId: sha256:a860a9a00835219e48cede8341d51126b248bacf0f6318cc8e4e319c2f5d97a0
-      repository: spinnaker/kayenta
-      tag: 2022.10.11.15.36.53.master
+      repository: armory/spinnaker-kayenta
+      tag: 2022.10.11-20221011153653.master
     vcs:
       repo:
         orgName: spinnaker
@@ -102,8 +102,8 @@ services:
   orca:
     image:
       imageId: sha256:626d374af8919b609640a89efeeef84ba7f514d3987758791ac6bc2420f79eea
-      repository: spinnaker/orca
-      tag: 2022.10.13.05.46.41.master
+      repository: armory/spinnaker-orca
+      tag: 2022.11.8-20221108163400.master
     vcs:
       repo:
         orgName: spinnaker
@@ -113,8 +113,8 @@ services:
   rosco:
     image:
       imageId: sha256:798ed30126d52252323bf7d4b40baa981534702353897e11007a0f2ec108e744
-      repository: spinnaker/rosco
-      tag: 2022.10.10.17.50.51.master
+      repository: armory/spinnaker-rosco
+      tag: 2022.10.10-20221010175051.master
     vcs:
       repo:
         orgName: spinnaker
