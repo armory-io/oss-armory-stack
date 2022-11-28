@@ -121,6 +121,17 @@ services:
         repoName: rosco
         type: github
       sha: ef1bab5e689e2542d0400027038af6442ec43f41
+  spinnaker-echo:
+    image:
+      imageId: sha256:9892f071e8ec41858cfc7d964dc432603b9ad33d27404833a2e3649bb1f0966b
+      repository: armory/spinnaker-echo
+      tag: 2022.0.0-20221118201706.release-1.27.x
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: echo
+        type: github
+      sha: b1bf2fcb59f72924004ffdf841276ca75cb0450f
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
