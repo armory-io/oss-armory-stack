@@ -121,6 +121,17 @@ services:
         repoName: rosco
         type: github
       sha: ef1bab5e689e2542d0400027038af6442ec43f41
+  spinnaker-orca:
+    image:
+      imageId: sha256:3b72a2ea16a2f938866c2adc8dd2a273cca52a723e9276eab6d03df934f5c9cd
+      repository: armory/spinnaker-orca
+      tag: 2022.0.0-20221206212435.release-1.29.x
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: orca
+        type: github
+      sha: e534be631c4a3eaf1bbf263e86181e3b8f5916be
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
