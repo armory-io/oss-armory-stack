@@ -121,6 +121,17 @@ services:
         repoName: rosco
         type: github
       sha: ef1bab5e689e2542d0400027038af6442ec43f41
+  spinnaker-front50:
+    image:
+      imageId: sha256:feffa28a28ef29a9c2de1a221fd8e96b2456eb2c265f195dcc636ead00f76259
+      repository: armory/spinnaker-front50
+      tag: 2023.0.0-20230324231103.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: front50
+        type: github
+      sha: f510437c114104456e53626f021625e15ba4c5e5
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
