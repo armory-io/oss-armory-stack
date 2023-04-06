@@ -121,6 +121,17 @@ services:
         repoName: rosco
         type: github
       sha: ef1bab5e689e2542d0400027038af6442ec43f41
+  spinnaker-rosco:
+    image:
+      imageId: sha256:f51c74706a0c896bf9a2bdc8caf5435ee862390a6aebdcc1e2788fbcbcb34d97
+      repository: armory/spinnaker-rosco
+      tag: 2023.0.0-20230406174238.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: rosco
+        type: github
+      sha: 132e7093dce3359a1bef12e03dcca4ced9c2df02
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
