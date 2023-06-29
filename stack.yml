@@ -121,6 +121,17 @@ services:
         repoName: rosco
         type: github
       sha: ef1bab5e689e2542d0400027038af6442ec43f41
+  spinnaker-gate:
+    image:
+      imageId: sha256:78fff09be784465c0c5e6e6150eab4f29fae137fa1c6fbda930c9084f49e1b97
+      repository: armory/spinnaker-gate
+      tag: 2023.0.0-20230629205246.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: gate
+        type: github
+      sha: 04d808c66189d8218fc0d68deab31fe29d7d5756
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
