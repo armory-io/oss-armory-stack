@@ -1,12 +1,12 @@
 plugins:
   armory-ext:
     image:
-      imageId: sha256:d34ea6f29026233a69433ca689f21c1975db87652a9cb7308d53837f9ed979b3
+      imageId: sha256:e64ca4116af53b121fd1c9d903ed0526e426a86112f3654d39e75b90633a598b
       repository: armory/armory-ext
-      tag: 2022.11.14.23.26.42.master
+      tag: 2023.09.06.10.56.12.master
     vcs:
       repo:
         orgName: armory-plugins
         repoName: armory-ext
         type: github
-      sha: 3a0dc6c3f1fec593cd429e5ca9056d521424ff2c
+      sha: 67f7487818cda46ac127510210f587d03e56f776
