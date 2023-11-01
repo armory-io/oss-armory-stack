@@ -121,6 +121,17 @@ services:
         repoName: rosco
         type: github
       sha: ef1bab5e689e2542d0400027038af6442ec43f41
+  spinnaker-clouddriver:
+    image:
+      imageId: sha256:d93d04cb778bf74fac1d9d6a0dcd17a7089b4ed70fd9fe02e71377bcea4ac6e0
+      repository: armory/spinnaker-clouddriver
+      tag: 2023.0.0-20231101104241.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: clouddriver
+        type: github
+      sha: 20a8cf6a6c5b744bb96a78d6aa329981fc6fb704
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
