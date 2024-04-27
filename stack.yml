@@ -121,6 +121,17 @@ services:
         repoName: rosco
         type: github
       sha: ef1bab5e689e2542d0400027038af6442ec43f41
+  spinnaker-fiat:
+    image:
+      imageId: sha256:98286981aa46fc5a359e4d466d8d27ee1d8f3a3a0ab1dd413591282ea2a15b69
+      repository: armory/spinnaker-fiat
+      tag: 2024.0.0-20240427013720.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: fiat
+        type: github
+      sha: 5c90023372ef8aca64adf4d0dbb614e350ac8f29
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
