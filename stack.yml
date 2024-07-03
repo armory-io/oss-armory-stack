@@ -121,6 +121,17 @@ services:
         repoName: rosco
         type: github
       sha: ef1bab5e689e2542d0400027038af6442ec43f41
+  spinnaker-kayenta:
+    image:
+      imageId: sha256:a6799556a9e20269134d605eb92b054642b94a918b567d8cb18692ea6252a5e9
+      repository: armory/spinnaker-kayenta
+      tag: 2024.0.0-20240703203239.master
+    vcs:
+      repo:
+        orgName: spinnaker
+        repoName: kayenta
+        type: github
+      sha: 0681788314822ec6201777614a745eefe2545692
   terraformer:
     image:
       imageId: sha256:0d0ed4a42d4362f96caf4dc45814abaf1e858b5df1f972135f07e62f8f12df6a
